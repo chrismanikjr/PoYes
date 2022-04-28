@@ -7,11 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TimeLineViewController: UIViewController {
 
+    @IBOutlet weak var weekCollectionView: UICollectionView!
+    @IBOutlet weak var timeListTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    func setupNavBar(){
+        
     }
 
 
