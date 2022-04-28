@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		7C86AE01281993FE00E78AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86AE00281993FE00E78AEA /* AppDelegate.swift */; };
 		7C86AE03281993FE00E78AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86AE02281993FE00E78AEA /* SceneDelegate.swift */; };
-		7C86AE05281993FE00E78AEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86AE04281993FE00E78AEA /* ViewController.swift */; };
+		7C86AE05281993FE00E78AEA /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86AE04281993FE00E78AEA /* TimeLineViewController.swift */; };
 		7C86AE08281993FE00E78AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C86AE06281993FE00E78AEA /* Main.storyboard */; };
 		7C86AE0B281993FE00E78AEA /* Poyes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C86AE09281993FE00E78AEA /* Poyes.xcdatamodeld */; };
 		7C86AE0D281993FF00E78AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C86AE0C281993FF00E78AEA /* Assets.xcassets */; };
 		7C86AE10281993FF00E78AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C86AE0E281993FF00E78AEA /* LaunchScreen.storyboard */; };
+		7CDAC5FE281A2198003D80BD /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC5FD281A2198003D80BD /* CalendarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C86ADFD281993FE00E78AEA /* Poyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C86AE00281993FE00E78AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C86AE02281993FE00E78AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C86AE04281993FE00E78AEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C86AE04281993FE00E78AEA /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		7C86AE07281993FE00E78AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C86AE0A281993FE00E78AEA /* Poyes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poyes.xcdatamodel; sourceTree = "<group>"; };
 		7C86AE0C281993FF00E78AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C86AE0F281993FF00E78AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C86AE11281993FF00E78AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDAC5FD281A2198003D80BD /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				7C86AE00281993FE00E78AEA /* AppDelegate.swift */,
 				7C86AE02281993FE00E78AEA /* SceneDelegate.swift */,
-				7C86AE04281993FE00E78AEA /* ViewController.swift */,
+				7C86AE04281993FE00E78AEA /* TimeLineViewController.swift */,
 				7C86AE06281993FE00E78AEA /* Main.storyboard */,
 				7C86AE0C281993FF00E78AEA /* Assets.xcassets */,
 				7C86AE0E281993FF00E78AEA /* LaunchScreen.storyboard */,
 				7C86AE11281993FF00E78AEA /* Info.plist */,
 				7C86AE09281993FE00E78AEA /* Poyes.xcdatamodeld */,
+				7CDAC5FD281A2198003D80BD /* CalendarCollectionViewCell.swift */,
 			);
 			path = Poyes;
 			sourceTree = "<group>";
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C86AE05281993FE00E78AEA /* ViewController.swift in Sources */,
+				7C86AE05281993FE00E78AEA /* TimeLineViewController.swift in Sources */,
 				7C86AE01281993FE00E78AEA /* AppDelegate.swift in Sources */,
 				7C86AE0B281993FE00E78AEA /* Poyes.xcdatamodeld in Sources */,
 				7C86AE03281993FE00E78AEA /* SceneDelegate.swift in Sources */,
+				7CDAC5FE281A2198003D80BD /* CalendarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
